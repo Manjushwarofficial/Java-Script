@@ -30,6 +30,21 @@ for(i=0; i<len; i++){
     console.log(q[i]);
 }
 
+// arrow function
+
+const add = (a,b) => a+b;
+console.log(add(2,3));
+
+// higher order function
+
+const arr = [1,2,3,4,5];
+
+const square = (x) => x*x;
+
+const squaredArr = arr.map(square);
+
+console.log(squaredArr);
+
 
 
 

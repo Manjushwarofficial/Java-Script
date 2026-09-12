@@ -29,7 +29,7 @@ arr2d.unshift([1,2,3]);
 console.log(arr2d);
 
 
-// json.strigify
+// json.stringify : convert object to string
 
 var obj = {name: "Manjushwar", age: 25, city: "Pune"};
 
@@ -41,4 +41,19 @@ var myObj = JSON.parse(myJSON);
 
 
 console.log(myObj.name);
+
+// mutable an array declared with const
+
+const arr3 = [1,2,3];
+
+arr3.push(4);
+console.log(arr3);
+
+// ... operator
+
+const arr4 = [1,2,3];
+
+const arr5 = [...arr4, 4,5,6];
+
+console.log(arr5);
 
