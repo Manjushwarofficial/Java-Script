@@ -3,7 +3,7 @@
 // class syntax
 
 class spaceShuttle {
-    
+
     constructor(targetPlanet) {
         this.targetPlanet = targetPlanet;
     }
